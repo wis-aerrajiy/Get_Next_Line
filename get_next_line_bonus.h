@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/31 21:33:50 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/11/04 17:02:36 by aerrajiy         ###   ########.fr       */
+/*   Created: 2022/11/04 15:12:15 by aerrajiy          #+#    #+#             */
+/*   Updated: 2022/11/04 17:00:42 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <fcntl.h>
 # include <limits.h>
@@ -23,13 +23,13 @@
 # endif
 
 char	*get_next_line(int fd);
-char	*read_data_by_buffer(int fd, char *saved);
-char	*split_line(char *saved);
-char	*get_rest_data(char *saved);
+char	*read_data_by_buffer_bonus(int fd, char *saved);
+char	*split_line_bonus(char *saved);
+char	*get_rest_data_bonus(char *saved);
 
-char	*ft_strdup(char *s);
-char	*ft_strjoin(char *s1, char *s2);
-size_t	ft_strlen(char *s);
-char	*ft_strchr(char *s, int c);
+char	*ft_strdup_bonus(char *s);
+char	*ft_strjoin_bonus(char *s1, char *s2);
+size_t	ft_strlen_bonus(char *s);
+char	*ft_strchr_bonus(char *s, int c);
 
 #endif
